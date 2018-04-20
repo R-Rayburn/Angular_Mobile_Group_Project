@@ -14,7 +14,7 @@ import { AngularFireDatabase } from 'angularfire2/database';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Resturaunt Picker';
 
   authState:Observable<User>;
   currentUser:User;
